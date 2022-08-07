@@ -6,7 +6,7 @@
 /*   By: rpapyan <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/31 16:39:08 by rpapyan           #+#    #+#             */
-/*   Updated: 2022/07/31 20:40:53 by rpapyan          ###   ########.fr       */
+/*   Updated: 2022/08/07 18:42:17 by rpapyan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,11 @@ int	main()
 
 	fd = open("file", O_RDONLY);
 	printf("%s", get_next_line(fd));
-	printf("%s", get_next_line(fd));
+//	printf("%s", get_next_line(fd));
+//	printf("%s", get_next_line(fd));
+/*	while (get_next_line(fd))
+	{
+		printf("%s", get_next_line(fd));
+	}*/
 	return (0);
 }
